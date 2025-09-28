@@ -32,11 +32,11 @@ def print_menu():
 
 def get_vaild_score():
     """Prompt user until a valid score (0-100 inclusive) is entered"""
-    score = int(input("Enter your score (0-100): "))
+    score = int(input("Enter your score (0-100) please: "))
     if score < 0 or score > 100:
         print("Invalid score, must be between 0 and 100, please try again.")
     else:
-        print("Please enter a valid number.")
+        print("Try again please enter a valid number.")
     return score
 
 def show_stars(score):

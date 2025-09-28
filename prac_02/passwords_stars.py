@@ -1,3 +1,4 @@
+"""Program to check if a password length"""
 
 
 
@@ -18,7 +19,7 @@ def print_astricks(password: str):
 
 
 def get_password() -> str:
-    password = input("Enter password: ")
+    password = input("Please Enter password: ")
     return password
 
 main()

@@ -18,10 +18,10 @@ def main():
             celsius = convert_to_celsius(celsius, fahrenheit)
             print(f"Result: {celsius:.2f} C")
         else:
-            print("Invalid option")
+            print("Invalid option, please try again.")
         print(MENU)
         choice = input(">>> ").upper()
-    print("Thank you.")
+    print("Thank you. Your option is valid")
 
 def convert_to_celsius(celsius: float, fahrenheit: float) -> float:
     celsius = 5 / 9 * (fahrenheit - 32)
