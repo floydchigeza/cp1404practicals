@@ -4,7 +4,6 @@ from prac_02.score import categorise_score
 
 
 def main():
-    print("Welcome to the Score Program.")
     score = get_vaild_score()
 
     choice = ""
