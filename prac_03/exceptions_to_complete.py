@@ -7,7 +7,7 @@ is_finished = False
 while not is_finished:
     try:
         result = int(input("Enter a valid integer: "))
-        # TODO: this line
+        # this line
         is_finished = True
     except: ValueError
     print("Integer must be a valid number, please enter a valid integer.")
